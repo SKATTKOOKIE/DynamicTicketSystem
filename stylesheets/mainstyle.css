@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Titillium+Web:wght@300;400;700&display=swap');
+@import url(rootVariables.css);
+
+body
+{
+    background-color: var(--tertiary-colour);
+    color: var(--text-colour);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Titillium Web', sans-serif; */
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container 
+{
+    background-color: var(--text-colour);
+    color: var(--primary-colour);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.form-container input[type="submit"]
+{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: var(--primary-colour);
+    margin-top: 5px;
+}
+
+.form-container input[type="submit"]:hover
+{
+    cursor: pointer;
+}
+
+.ticket 
+{
+    background-color: var(--text-colour);
+    border: 2px solid #000;
+    color: var(--tertiary-colour);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 300px;
+}
+
+.ticket input 
+{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.nameInput
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.numberInput
+{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
